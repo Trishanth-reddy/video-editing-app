@@ -1,0 +1,25 @@
+# Python internals
+__pycache__/
+*.pyc
+
+# Virtual Environment (Very Important)
+venv/
+env/
+.venv/
+
+# 🚀 PROJECT SPECIFIC IGNORES (Runtime Data)
+# We don't want to commit the test videos you uploaded
+uploads/videos/*
+uploads/overlays/*
+outputs/*
+jobs/*
+
+# Keep the folders, but ignore content
+!uploads/videos/.gitkeep
+!uploads/overlays/.gitkeep
+!outputs/.gitkeep
+!jobs/.gitkeep
+
+# IDE Settings
+.vscode/
+.idea/

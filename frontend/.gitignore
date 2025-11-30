@@ -1,0 +1,23 @@
+# Dependencies (Massive folder, never commit this)
+node_modules/
+
+# Expo internals
+.expo/
+web-build/
+dist/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS System files
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
